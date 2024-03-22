@@ -1,0 +1,8 @@
+
+---
+- name: HTTPD server is installed
+  hosts: webdev
+  become: true
+  roles:
+    - web_site
+
